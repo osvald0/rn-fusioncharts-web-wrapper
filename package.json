@@ -34,5 +34,7 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "author": "Osvaldo Colina",
+  "license": "MIT"
 }
