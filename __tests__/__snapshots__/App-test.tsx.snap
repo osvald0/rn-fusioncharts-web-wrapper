@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Renders correctly 1`] = `
+<View
+  style={
+    {
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <WebView
+    originWhitelist={
+      [
+        "*",
+      ]
+    }
+    source={
+      {
+        "html": "
+    <!doctype html>
+    <html>
+    <head>
+        <script src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
+    </head>
+    <body>
+        <div id="chart-container"></div>
+        <script>
+            FusionCharts.ready(function () {
+                var chart = new FusionCharts({"type":"column2d","renderAt":"chart-container","width":"600","height":"400","dataFormat":"json","dataSource":{"chart":{"caption":"Countries With Most Oil Reserves [2017-18]","subcaption":"In MMbbl = One Million barrels"},"data":[{"label":"Venezuela","value":"290000"},{"label":"Saudi","value":"260000"},{"label":"Canada","value":"180000"},{"label":"Iran","value":"140000"},{"label":"Russia","value":"115000"},{"label":"UAE","value":"100000"},{"label":"US","value":"30000"},{"label":"China","value":"30000"}]}}).render();
+            });
+        </script>
+    </body>
+    </html>
+",
+      }
+    }
+  />
+</View>
+`;
